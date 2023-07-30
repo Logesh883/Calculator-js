@@ -122,11 +122,10 @@ body {
 
 @media all and (max-width: 550px) {
   #label {
-    position: absolute;
     width: 40px;
     height: 40px;
-    left: 30px;
-    top: 30px;
+    margin-left: -3px;
+    margin-top: -5px;
     border: 2px solid;
   }
   .material-symbols-outlined {
@@ -174,37 +173,14 @@ body {
     background-image: linear-gradient(#ffcab1, #63adf2);
   }
 
-  /* #head span {
-    position: absolute;
-    left: 7px;
-    top: 30px;
-    visibility: visible;
-    font-size: 60px;
-    color: transparent;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    -webkit-text-stroke: 1px red;
-    background: url(./collection/photo-1579546928686-286c9fbde1ec.png);
-    -webkit-background-clip: text;
-    background-clip: text;
-    animation: back 10s linear infinite;
-    background-position: 0 0;
-  }
-  @keyframes back {
-    100% {
-      background-position: 2000px 0;
-    }
-  } */
-
   .calculator-grid {
     display: grid;
     align-content: center;
     justify-content: center;
     min-height: 105vh;
     gap: 3px;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 80px);
   }
   .calculator-grid > button {
     cursor: pointer;
