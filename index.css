@@ -124,8 +124,8 @@ body {
   #label {
     width: 40px;
     height: 40px;
-    margin-left: -3px;
-    margin-top: -5px;
+    margin-left: -9px;
+    margin-top: -10px;
     border: 2px solid;
   }
   .material-symbols-outlined {
@@ -177,10 +177,10 @@ body {
     display: grid;
     align-content: center;
     justify-content: center;
-    min-height: 105vh;
+    min-height: 100vh;
     gap: 3px;
-    grid-template-columns: repeat(4, 80px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 80px);
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 70px);
   }
   .calculator-grid > button {
     cursor: pointer;
@@ -231,7 +231,9 @@ body {
   .de {
     background-color: #82a0bc;
   }
-
+  #DEL {
+    font-size: 1.5rem;
+  }
   #mode {
     position: relative;
   }
